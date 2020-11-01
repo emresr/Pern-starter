@@ -1,13 +1,12 @@
-CREATE DATABASE todo;
+CREATE DATABASE ;
 
 CREATE TABLE todos(
-  todo_id SERIAL PRIMARY KEY,
-  title VARCHAR(255) NOT NULL,
-  tag VARCHAR(255),
-  done BOOLEAN  DEFAULT '0', 
-  date VARCHAR(255),
-  priority VARCHAR(1)
+  _id SERIAL PRIMARY KEY,
+   VARCHAR(255) NOT NULL,
+   VARCHAR(255),
+    BOOLEAN  DEFAULT '0', 
+
 );
 
 
-INSERT INTO todos (description) VALUES ('todo');
+INSERT INTO tablename () VALUES ('');
