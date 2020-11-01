@@ -1,12 +1,12 @@
 const express = require("express");
 const app = express();
-const bodyParser = require('body-parser')
+const bodyParser = require("body-parser");
 const cors = require("cors");
 
-app.use(cors())
-app.use(bodyParser.json())
+app.use(cors());
+app.use(bodyParser.json());
 
-app.use('/todo/', require('./api/routes/todoRouter.js'));
+app.use("/app/", require("./api/routes/appRouter.js"));
 
 const PORT = process.env.port || 5000;
 
